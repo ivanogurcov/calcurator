@@ -21,7 +21,7 @@ td {
 }
 
 .Calculator__fun {
-	background-color: #ff9900;
+	background-color: #004DFF;
 	color: black;
 	cursor: pointer;
 	transition: opacity ease .25s;
@@ -32,7 +32,7 @@ td {
 }
 
 .Calculator__numb {
-	background-color: #bbbbbb;
+	background-color: #858585;
 	color: black;
 	cursor: pointer;
 	transition: opacity ease .25s;
@@ -43,9 +43,8 @@ td {
 }
 
 .Calculator__enter {
-	background-color: #f1f1f1;
+	background-color: #004DFF;
 	color: black;
-	border-radius: 0 0 12px 12px;
 	cursor: pointer;
 	transition: opacity ease .25s;
 }
@@ -53,3 +52,16 @@ td {
 .Calculator__enter:hover {
 	opacity: .75;
 }
+.Calculator__clear {
+	background-color: #FF8000;
+	color: black;
+	border-radius: 0 0 12px 0;
+	cursor: pointer;
+	transition: opacity ease .25s;
+	opacity: .75;
+}
+
+.Calculator__clear:hover {
+	opacity: .75;
+}
+
